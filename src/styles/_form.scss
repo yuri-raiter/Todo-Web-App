@@ -1,0 +1,46 @@
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 2px solid #fff;
+    
+    .button {
+        background: transparent;
+        border: none;
+        outline: none;
+        margin-right: 0.5rem;
+        padding: 1rem;
+        cursor: pointer;
+        transition: all .3s ease;
+        border-right: 2px solid #fff;
+        
+        &:hover {
+            background: #fff;
+
+            .plus {
+                color: #fc4a1a;
+            }
+        }
+
+        .plus {
+            color: #fff;
+            font-size: 1.5rem;
+        }
+    }
+
+    input {
+        flex: 1;
+        background: transparent;
+        border: 0;
+        outline: none;
+        font-size: 1.5rem;
+        font-family: 'Yusei Magic', sans-serif;
+        color: #fff;
+        box-shadow: none;
+
+        &::placeholder {
+            color: #fff;
+        }
+    }
+}

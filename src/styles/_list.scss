@@ -1,0 +1,28 @@
+.list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: auto;
+    //padding: 0 0.5rem;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #fc4a1a transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 100%;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #fc4a1a;
+    border: transparent;
+}

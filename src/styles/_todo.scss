@@ -1,0 +1,46 @@
+.todo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #fff;
+
+    p {
+        width: 0;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        flex: 1;
+        margin: 0 1rem;
+        color: #000;
+        font-size: 1.4rem;
+    }
+
+    .icons {
+        font-size: 1.8rem;
+        cursor: pointer;
+        transition: all .3s ease;
+        color: #999999;
+    }
+
+    .circle:hover {
+        color: #fc4a1a;
+    }
+
+    .check {
+        color: #fc4a1a;
+    }
+
+    .done { 
+        color: #999999;
+        text-decoration: line-through;
+    }
+
+    .delete:hover {
+        color: #fc4a1a;
+    }
+
+    &:nth-child(n + 2) {
+        margin-top: 0.5rem;
+    }
+}
