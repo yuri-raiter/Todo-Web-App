@@ -10,4 +10,4 @@ During the development, I focused on better understanding some basic Hooks, such
 - useRef
 - useEffect
 
-Overall, it's a great projects for React beginners.
+Overall, it's a great project for React beginners.
